@@ -19,7 +19,7 @@ export class FormUserDetails extends Component {
 
 
     render() {
-        const { values: { firstName, lastName, email, moveDate, zipo, zipd} } = this.props;
+        const { values: { firstName, lastName, email, date, zipo, zipd} } = this.props;
         return (
             <MuiThemeProvider>
                 <React.Fragment>
@@ -30,35 +30,35 @@ export class FormUserDetails extends Component {
                           secondaryText={firstName}
                         > <ListItemText primary={firstName} />
                         </ListItem>
-                        <ListItem 
+                        <ListItem
                           primaryText="Last Name"
                           secondaryText={lastName}
                         />
-                        <ListItem 
+                        <ListItem
                           primaryText="Email"
                           secondaryText={email}
                         />
-                        <ListItem 
+                        <ListItem
                           primaryText="Moving Date"
-                          secondaryText={moveDate}
+                          secondaryText={date}
                         />
-                        <ListItem 
+                        <ListItem
                           primaryText="Zip Origin"
                           secondaryText={zipo}
                         />
-                        <ListItem 
+                        <ListItem
                           primaryText="Zip Destination"
                           secondaryText={zipd}
                         />
                     </List>
                     <br />
-                    <RaisedButton 
+                    <RaisedButton
                         label="Confirm & Continue"
                         primary={true}
                         style={styles.button}
                         onClick={this.continue}
                     />
-                    <RaisedButton 
+                    <RaisedButton
                         label="Back"
                         primary={false}
                         style={styles.button}

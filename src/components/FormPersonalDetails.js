@@ -21,35 +21,35 @@ export class FormPersonalDetails extends Component {
         return (
             <MuiThemeProvider>
                 <React.Fragment>
-                    <AppBar title="Moving Details" />
-                    <TextField 
-                        hintText="Where Are You Moving From"
+                    <AppBar title="Your Details" />
+                    <TextField
+                        hintText="Where Are You Leaving From"
                         floatingLabelText="Zip Code"
                         onChange={handleChange('zipo')}
                         defaultValue={values.zipo}
                     />
                     <br/>
-                    <TextField 
-                        hintText="Where Are You Moving To"
+                    <TextField
+                        hintText="Where Are You Leaving To"
                         floatingLabelText="Zip Code"
                         onChange={handleChange('zipd')}
                         defaultValue={values.zipd}
                     />
                     <br/>
-                     <TextField 
-                        hintText="When Are You Moving"
+                     <TextField
+                        hintText="The Date You Need This Service"
                         floatingLabelText="DD/MM/YYYY"
                         onChange={handleChange('moveDate')}
                         defaultValue={values.MoveDate}
                     />
                     <br />
-                    <RaisedButton 
+                    <RaisedButton
                         label="Continue"
                         primary={true}
                         style={styles.button}
                         onClick={this.continue}
                     />
-                    <RaisedButton 
+                    <RaisedButton
                         label="Back"
                         primary={false}
                         style={styles.button}

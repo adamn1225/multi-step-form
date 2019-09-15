@@ -20,8 +20,8 @@ export class Success extends Component {
             <MuiThemeProvider>
                 <React.Fragment>
                     <AppBar title="Success" />
-                    <h1>Awesome! Your Moving Quote Is On It's Way!</h1>
-                    <p>Here Are Some Pro Moving Companies Near You</p>
+                    <h1>Awesome! Your Quote Is On It's Way!</h1>
+                    <p></p>
                 </React.Fragment>
             </MuiThemeProvider>
         );
