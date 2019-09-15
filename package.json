@@ -1,8 +1,8 @@
 {
+  "homepage": "https://adamn1225.github.io/multi-step-form/",
   "name": "getpromovers.com",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://adamn1225.github.io/multi-step-form/",
   "dependencies": {
     "@material-ui/core": "^4.4.2",
     "material-ui": "^0.20.2",
