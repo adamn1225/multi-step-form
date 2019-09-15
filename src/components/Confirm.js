@@ -39,7 +39,7 @@ export class FormUserDetails extends Component {
                           secondaryText={email}
                         />
                         <ListItem
-                          primaryText="Moving Date"
+                          primaryText="Date"
                           secondaryText={date}
                         />
                         <ListItem
