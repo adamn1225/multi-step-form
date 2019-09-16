@@ -39,7 +39,7 @@ export class FormPersonalDetails extends Component {
                      <TextField
                         hintText="The Date You Need This Service"
                         floatingLabelText="DD/MM/YYYY"
-                        onChange={handleChange('moveDate')}
+                        onChange={handleChange('date')}
                         defaultValue={values.MoveDate}
                     />
                     <br />
